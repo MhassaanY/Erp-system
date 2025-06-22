@@ -2,22 +2,22 @@
 
 A modern, containerized ERP (Enterprise Resource Planning) system featuring a FastAPI backend and Streamlit frontend, designed for simplicity and scalability.
 
-## ✨ Features
+##  Features
 
-- 🔐 **JWT Authentication** - Secure user authentication with JWT tokens
-- 📦 **Inventory Management** - Full CRUD operations for inventory items
+-  **JWT Authentication** - Secure user authentication with JWT tokens
+-  **Inventory Management** - Full CRUD operations for inventory items
   - Add, view, update, and delete items
   - Search and filter functionality
   - Real-time inventory value calculation
-- 📊 **Dashboard** - Visual analytics and metrics
+-  **Dashboard** - Visual analytics and metrics
   - Inventory overview
   - Low stock alerts
   - Value calculations
-- 🌐 **Modern UI** - Responsive and user-friendly interface
-- 🐳 **Containerized** - Easy deployment with Docker
-- 🔄 **RESTful API** - Well-documented endpoints with OpenAPI/Swagger
+-  **Modern UI** - Responsive and user-friendly interface
+-  **Containerized** - Easy deployment with Docker
+-  **RESTful API** - Well-documented endpoints with OpenAPI/Swagger
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -56,14 +56,14 @@ A modern, containerized ERP (Enterprise Resource Planning) system featuring a Fa
    - Fill in the registration form
    - Log in with your credentials
 
-## 📚 API Documentation
+##  API Documentation
 
 Interactive API documentation is available when the backend is running:
 
 - **Swagger UI**: http://localhost:8000/docs
 - **ReDoc**: http://localhost:8000/redoc
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 erp_project/
@@ -92,7 +92,7 @@ erp_project/
 └── README.md                  # This file
 ```
 
-## 🛠 Development
+##  Development
 
 ### Local Development (Without Docker)
 
@@ -146,7 +146,7 @@ erp_project/
    streamlit run app.py
    ```
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -190,7 +190,7 @@ TEXT_COLOR=#31333F
 FONT=sans serif
 ```
 
-## 🔄 Database Migrations
+##  Database Migrations
 
 For database schema changes, use Alembic:
 
@@ -209,7 +209,7 @@ For database schema changes, use Alembic:
    alembic upgrade head
    ```
 
-## 🧪 Testing
+##  Testing
 
 Run tests with pytest:
 
@@ -221,7 +221,7 @@ pip install -r requirements-test.txt
 pytest
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Production Deployment
 
@@ -243,7 +243,7 @@ docker-compose logs -f
 docker-compose down
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -251,11 +251,11 @@ docker-compose down
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - FastAPI for the amazing backend framework
 - Streamlit for the simple yet powerful frontend
